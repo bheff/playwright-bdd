@@ -1,0 +1,22 @@
+{
+  "name": "pw-bdd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:bdd": "nodemon -w ./src -w ./features -e feature,js,ts --exec \"npx bddgen\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.1",
+    "nodemon": "^3.1.4",
+    "playwright-bdd": "^7.2.2"
+  },
+  "dependencies": {
+    "playwright": "^1.46.1"
+  }
+}
